@@ -294,9 +294,6 @@ hr {
 
 .card__item {
   width: 380px;
-  position: relative;
-
-  background-color: #95e1d3;
 }
 
 .card__inner {
@@ -309,7 +306,7 @@ hr {
 }
 
 .card__inner:hover .card__img img {
-  opacity: 0.1;
+  opacity: .1;
 }
 
 .card__inner:hover .card__text {
@@ -319,12 +316,12 @@ hr {
 .card__img {
   background: linear-gradient(to bottom, #f38181, #fce38a);
 
-  transition: transform 0.2s linear;
+  transition: transform .2s linear;
 }
 
 .card__img img {
   display: block;
-  transition: opacity 0.1s linear;
+  transition: opacity .1s linear;
 }
 
 .card__text {
@@ -343,7 +340,7 @@ hr {
   z-index: 2;
   transform: translate3d(0, -50%, 0);
 
-  transition: opacity 0.2s linear;
+  transition: opacity .2s linear;
 }
 
 .card__info {
@@ -630,7 +627,7 @@ hr {
   color: #f38181;
   line-height: 1;
 
-  transition: background 0.1s linear, color 0.1s linear;
+  transition: background .1s linear, color .1s linear;
 }
 
 .social__item:last-child {
@@ -640,4 +637,11 @@ hr {
 .social__item:hover {
   color: #fff;
   background-color: #f38181;
+}
+
+
+/* Logos */
+.logos {
+  display: flex;
+  justify-content: space-between;
 }
